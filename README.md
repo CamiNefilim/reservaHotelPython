@@ -19,10 +19,6 @@ Este proyecto implementa un sistema de reservas para un hotel. Permite a los usu
 - Python 3.x
 - Módulo `datetime` para el manejo de fechas.
 
-## Requisitos
-
-- **Lenguaje:** Python 3.x
-
 ## Instalación
 
 1. **Clonar el repositorio:**
