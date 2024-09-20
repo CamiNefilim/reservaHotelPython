@@ -17,10 +17,7 @@ def actualiza_habitaciones_disponibles(hotel, fecha_ingreso, fecha_salida):
     
 def obtener_habitacion(nro, hotel):
     for habitacion in hotel.habitaciones_disponibles:
-        print(habitacion.numero)
-        print(nro)
         if(habitacion.numero == nro):
-            print("si")
             return habitacion
     return None
 

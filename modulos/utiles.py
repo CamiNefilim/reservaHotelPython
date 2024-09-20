@@ -10,6 +10,6 @@ def pedir_fecha(mensaje):
             if(fecha>=datetime.now):
                 return fecha
             else:
-                print("La fecha debe ser inferior al día de hoy.")
+                print("La fecha debe ser superior o igual al día de hoy.")
         except ValueError:
             print("Formato incorrecto. Usa el formato YYYY-MM-DD.")
